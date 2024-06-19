@@ -94,7 +94,7 @@ ORDER BY [Name]
 
 --Name                                               ListPrice
 --Adjustable Race                                     0,00
---All-Purpose Bike Stand							  159,00
+--All-Purpose Bike Stand							                159,00
 --AWC Logo Cap                                        8,99
 --Seat Lug                                            0,00
 --Seat Post                                           0,00
