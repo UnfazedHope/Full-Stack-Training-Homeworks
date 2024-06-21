@@ -65,7 +65,7 @@ WHERE City IN (
 	HAVING COUNT(CustomerID)>=2
 )
 
--- Not using sub-query
+-- Not using sub-query(didn't understood how to use the union for this question)
 
 SELECT c.City
 FROM Customers c
@@ -83,7 +83,7 @@ HAVING COUNT(DISTINCT od.ProductID) >= 2                     --> Distinct keywor
 ORDER BY c.City
 
 
--- Query 7 - List all Customers who have ordered products, but have the ‘ship city’ on the order different from their own customer cities.
+-- Query 7 - List all Customers who have ordered products, but have the â€˜ship cityâ€™ on the order different from their own customer cities.
 
 SELECT DISTINCT c.CustomerID, c.CompanyName, c.City AS CustomerCity, o.ShipCity
 FROM Customers c JOIN Orders o ON c.CustomerID = o.CustomerID
