@@ -6,16 +6,16 @@
  
 Test your Knowledge
  
-1]  A person’s telephone number - long
+1]  A person’s telephone number - string
     A person’s height - float or double
     A person’s age - int
-    A person’s gender (Male, Female, Prefer Not To Answer) - string, but if constrained to a numeric type, you could map each gender to a number(0,1 & 2) - int
+    A person’s gender (Male, Female, Prefer Not To Answer) - string, but if constrained to a numeric type, you could map each gender to a number(0,1 & 2) - int/enum
     A person’s salary - decimal
-    A book’s ISBN - They are ideally string, but we can use 'long' for this
+    A book’s ISBN - string
     A book’s price - decimal
     A book’s shipping weight - float or double
     A country’s population - long
-    The number of stars in the universe - ulong
+    The number of stars in the universe - ulong, but if it's larger than this range then we can use BigInteger
     The number of employees in each of the small or medium businesses in the United Kingdom - int
     
 2]  Difference between Value Type vs. Reference Type :-
