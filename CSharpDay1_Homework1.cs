@@ -1,7 +1,7 @@
 // See https://aka.ms/new-console-template for more information
 
 // Assignment 1(C#) - Day 1
-
+// I have used single cs file for this assignment(ran all the code separately), will use multiple cs files for Assignment 3
 /*
  
 Test your Knowledge
