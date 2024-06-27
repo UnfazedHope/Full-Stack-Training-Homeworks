@@ -1,0 +1,62 @@
+Object-Oriented Programming
+
+Test your knowledge
+
+1] The six combination of access modifiers are :-
+
+public: The member is accessible from anywhere.
+private: The member is accessible only within the containing class.
+protected: The member is accessible within the containing class and by derived class instances.
+internal: The member is accessible within the same assembly, but not from another assembly.
+protected internal: The member is accessible within the same assembly or from derived classes.
+private protected: The member is accessible within the containing class or derived classes that are located in the same assembly.
+
+2] static: The member belongs to the type itself rather than to a specific object. It can be called on the class itself without needing an instance.
+const: The member is a compile-time constant, which means its value is set at compile time and cannot be changed. It must be initialized at the time of declaration.
+readonly: The member can be assigned a value either at the time of declaration or in a constructor. Unlike const, its value can be set at runtime but only once.
+
+3] A constructor is a special method in a class that is called when an instance of the class is created. It initializes the new object and can set default values or perform setup tasks.
+
+4] The partial keyword allows a class, struct, or interface to be split across multiple files. This is useful for organizing code, especially in large projects.
+
+5] A tuple is a data structure that can hold a fixed number of items of different types.
+
+6] The record keyword defines a reference type that provides built-in functionality for encapsulating data.
+
+7] Overloading : Defining multiple methods with the same name but different signatures
+   Overriding  : Providing a new implementation for a method in a derived class that is already defined in a base class.
+
+8] Field: A variable declared directly in a class or struct. Fields store data directly.
+   Property: A member that provides a flexible way to read, write, or compute the value of a private field. Properties can include logic in their get and set accessors.
+
+9] Method parameters can be made optional by providing a default value in the method signature.
+
+10] Interface: A contract that defines a set of methods and properties that implementing classes must provide. Interfaces cannot contain implementation.
+    Abstract Class: A class that can include method implementations and abstract methods (methods without implementation). Abstract classes can contain fields, constructors, and other members.
+
+11] Members of an interface are by default public.
+
+12] Polymorphism allows derived classes to provide different implementations of the same method - True
+
+13] The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method - True
+
+14] The new keyword is used to indicate that a method in a derived class is providing its own implementation of a method - True
+
+15] Abstract methods can be used in a normal (non-abstract) class - False
+
+16] Normal (non-abstract) methods can be used in an abstract class - True
+
+17] Derived classes can override methods that were virtual in the base class - True
+
+18] Derived classes can override methods that were abstract in the base class - True
+
+19] In a derived class, you can override a method that was neither virtual nor abstract in the base class - False
+
+20] A class that implements an interface does not have to provide an implementation for all of the members of the interface - False
+
+21] A class that implements an interface is allowed to have other members that aren’t defined in the interface - True
+
+22] A class can have more than one base class - False
+
+23] A class can implement more than one interface - True
+
