@@ -1,0 +1,28 @@
+Generics
+
+Test your knowledge
+
+1] Generics in C# address the problem of code redundancy and type safety. 
+They allow you to define classes, methods, and data structures with a placeholder for the type of data they store or use.
+Generics help in avoiding boxing and unboxing for value types, provide better performance, and reduce the likelihood of runtime errors.
+
+2] List<string> stringList = new List<string>();
+
+3] The Dictionary class has two generic type parameters: TKey and TValue.
+
+4] When a generic class has multiple type parameters, they must all match - False
+
+5] list.Add(item) - The Add() method is used to add items to a List object.
+
+6] Remove and RemoveAt
+
+7] You indicate that a class has a generic type parameter by using angle brackets (< >) after the class name.
+
+8] Generic classes can only have one generic type parameter - False
+
+9] Generic type constraints limit what can be used for the generic type - True
+
+10] Constraints let you use the methods of the thing you are constraining to - True
+
+
+
