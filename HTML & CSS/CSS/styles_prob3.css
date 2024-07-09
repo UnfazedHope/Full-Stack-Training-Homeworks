@@ -1,0 +1,103 @@
+/* For Problem 3 , required CSS code is below as per required */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #34495e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.apply-now {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.apply-now:hover {
+    background-color: #e67e22;
+}
+
+.news-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.news-article {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.news-article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.news-article h2 {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.news-article .date, .news-article .author, .news-article .tags {
+    font-size: 14px;
+    color: #777;
+}
+
+.paging-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.paging-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.paging-bar ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.paging-bar ul li a {
+    text-decoration: none;
+    color: #3498db;
+    padding: 5px 10px;
+    border: 1px solid #3498db;
+    border-radius: 3px;
+}
+
+.paging-bar ul li a:hover {
+    background-color: #3498db;
+    color: white;
+}
